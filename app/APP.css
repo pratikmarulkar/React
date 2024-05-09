@@ -1,0 +1,12 @@
+.user-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust gap as needed */
+    margin: 20px auto; /* Center the container horizontally */
+    max-width: 800px; /* Limit container width for larger screens */
+  }
+  
+  .user-card {
+    width: calc(33.33% - 10px); /* Responsive width based on 3 cards per row */
+    padding: 15px;
+  }
